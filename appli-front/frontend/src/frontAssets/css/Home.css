@@ -1,0 +1,285 @@
+/* combinedStyles.css */
+
+/* styles from styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #c28618;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #20da58;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* styles from style.css */
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 200vh;
+  }
+  
+  header {
+      background-color: #dd8838;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  header nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  header nav ul li {
+      display: inline;
+      margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .image-container {
+      height: 50vh;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .image-wrapper-panneaux {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .image-wrapper-dessin {
+      flex: 4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .dessin {
+      max-width: 40%;
+      max-height: 40%;
+      object-fit: cover;
+  }
+  
+  .panneaux {
+      max-width: 120%;
+      max-height: 120%;
+      object-fit: cover;
+  }
+  
+  .compteur {
+      height: 33.333vh;
+      width: 75%;
+      border-collapse: collapse;
+      margin: 20px 0;
+  }
+  
+  .compteur h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .compteur-wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .compteur p {
+      display: table-row;
+  }
+  
+  .compteur input {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+      box-sizing: border-box;
+  }
+  
+  .compteur span {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur label {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur-container {
+    display: table;
+    margin-bottom: 20px;
+}
+
+.compteur-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.menu-addictions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-addictions ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-addictions li {
+    padding: 10px;
+    border: 1px solid palegreen;
+    border-radius: 5px;
+}
+
+.menu-addictions a {
+    text-decoration: none;
+    color: #333;
+}
+
+.messages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 66.666vh;
+    position: relative;
+}
+
+.messages-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.message-box,
+.astuces-box {
+    width: 50%;
+    height: 100%;
+    border: 3px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid lightgreen;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+  
+
